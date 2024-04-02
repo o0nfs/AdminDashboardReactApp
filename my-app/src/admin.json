@@ -1,0 +1,80 @@
+{
+  "admins": [
+    {
+      "id": "76f4",
+      "name": "nafise",
+      "email": " ",
+      "phone": " ",
+      "Email": "dfdfdfdfdfdfdfdf@gmal.com",
+      "status": "active"
+    },
+    {
+      "id": "0698",
+      "name": "nafise",
+      "Email": "nafiseh@gmail.com",
+      "birthDate": "22",
+      "password": "nafie22"
+    },
+    {
+      "id": "2b05",
+      "name": "samar2",
+      "Email": "sawqd@gmail.con",
+      "birthDate": "3",
+      "password": " "
+    },
+    {
+      "id": "59ef",
+      "name": "nafise",
+      "Email": "nafiseh@gmail.com",
+      "birthDate": "123",
+      "password": "123"
+    },
+    {
+      "id": "268f",
+      "name": " ",
+      "Email": " ",
+      "birthDate": " ",
+      "password": " "
+    },
+    {
+      "id": "aec4",
+      "name": " ",
+      "Email": " ",
+      "birthDate": " ",
+      "password": " "
+    },
+    {
+      "id": "52a8",
+      "name": "maryam",
+      "Email": "maryam@gmail.com",
+      "password": "maryam"
+    },
+    {
+      "id": "5f24",
+      "name": "shahab",
+      "Email": "shahab@gmail.com",
+      "password": "SHAHAB"
+    },
+    {
+      "id": "a4a2",
+      "name": "narges",
+      "Email": "narges@gmail.com",
+      "birthDate": "2024-03-19T15:19:23.000Z",
+      "password": "narges"
+    },
+    {
+      "id": "49b6",
+      "name": "mamad",
+      "Email": "mamad@gmail.co9m",
+      "birthDate": "2024-03-20T15:33:59.000Z",
+      "password": "mamad"
+    },
+    {
+      "id": "2edc",
+      "name": "mamad",
+      "Email": "mamad@gmail.com",
+      "birthDate": "2024-02-27T15:42:43.000Z",
+      "password": "mamad"
+    }
+  ]
+}
