@@ -8,17 +8,21 @@ import Create from './Components/Create';
 import Update from './Components/Update';
 import Read from './Components/Read';
 import Home from './Components/Home';
-import 'bootstrap/dist/css/bootstrap.min.css'
 import { CookiesProvider, useCookies } from 'react-cookie'
 
 
 function App() {
  
-  const [cookies, setCookie] = useCookies(['user'])
+  const [cookies, setCookie,removeCookie] = useCookies(['user'])
 
   function handleLogin(user) {
     setCookie('user', user, { path: '/' })
   }
+  function handleLogout(user){
+    removeCookie("user");
+  }
+
+
   return (
 
     <div>
@@ -28,7 +32,7 @@ function App() {
         cookies.user?
         <Routes>
 
-          <Route path="/Home" element={<Home />}  /> 
+          <Route path="/Home" element={<Home  onLogout={handleLogout} />}  /> 
           <Route path="/Admin" element={<Admin />}  /> 
           <Route path="/Menu" element={<Menu />}  /> 
           <Route path="/Create" element={<Create />}  /> 
